@@ -1,0 +1,15 @@
+{
+  "name": "your-name-here",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "~2.2.4",
+    "underscore": "~1.8.3",
+    "backbone": "~1.2.3",
+    "dashing": "~0.3.0-beta",
+    "samaritan-js": "~0.0.24"
+  },
+  "devDependencies": {
+    "jasmine-jquery": "~1.5.8",
+    "sinonjs": "~1.9.0"
+  }
+}
