@@ -1,6 +1,6 @@
-namespace('AppSkeleton')
+namespace('Barebones')
 
-class AppSkeleton.Router extends Backbone.Router
+class Barebones.Router extends Backbone.Router
 
   routes:
     "": "default"
@@ -9,5 +9,5 @@ class AppSkeleton.Router extends Backbone.Router
     @container = options.appContainer
 
   default: ->
-    view = new AppSkeleton.Person.View().render()
+    view = new Barebones.Person.View().render()
     @container.append(view.$el)

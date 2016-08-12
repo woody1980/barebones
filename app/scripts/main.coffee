@@ -1,3 +1,3 @@
 $ ->
-  new AppSkeleton.Router(appContainer: $("[data-id=app]"))
+  new Barebones.Router(appContainer: $("[data-id=app]"))
   Backbone.history.start()

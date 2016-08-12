@@ -1,6 +1,6 @@
-namespace('AppSkeleton')
+namespace('Barebones')
 
-AppSkeleton.Token = {
+Barebones.Token = {
   get: ->
     SamaritanJs.OAuth.TokenAccessor.get('SOME_SCOPE')
 }

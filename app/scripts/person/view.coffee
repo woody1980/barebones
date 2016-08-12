@@ -1,6 +1,6 @@
-namespace("AppSkeleton.Person")
+namespace("Barebones.Person")
 
-class AppSkeleton.Person.View extends Backbone.View
+class Barebones.Person.View extends Backbone.View
 
   template: JST["app/scripts/person/template.ejs"]
 
