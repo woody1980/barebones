@@ -12,10 +12,9 @@ module.exports = (grunt) ->
     dist: 'dist'
 
   serverConfigs =
-    port: 9003
-    protocol: 'https'
-    key: grunt.file.read('certs/localhost.key')
-    cert: grunt.file.read('certs/localhost.crt')
+    port: 9002
+    protocol: 'http'
+
 
   grunt.initConfig
     yeoman: yeomanConfig
