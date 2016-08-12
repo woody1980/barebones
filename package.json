@@ -1,7 +1,7 @@
 {
   "name": "barebones",
   "private": true,
-  "repository": "https://github.com/woody1980/skeleton.git",
+  "repository": "https://github.com/woody1980/appSkeleton.git",
   "version": "0.0.0",
   "dependencies": {},
   "devDependencies": {
